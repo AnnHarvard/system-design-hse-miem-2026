@@ -38,7 +38,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "editable": true,
       "error": false,
@@ -387,7 +387,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "fieldConfig": {
         "defaults": {
@@ -513,7 +513,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "decimals": 1,
       "editable": true,
@@ -859,7 +859,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "editable": true,
       "error": false,
@@ -1045,7 +1045,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "editable": true,
       "error": false,
@@ -1134,7 +1134,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "KmvkIqeNz"
+        "uid": "eis4L7aDk"
       },
       "editable": true,
       "error": false,
@@ -1234,7 +1234,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "KmvkIqeNz"
+          "uid": "eis4L7aDk"
         },
         "definition": "",
         "hide": 0,
@@ -1264,7 +1264,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "KmvkIqeNz"
+          "uid": "eis4L7aDk"
         },
         "definition": "",
         "hide": 0,

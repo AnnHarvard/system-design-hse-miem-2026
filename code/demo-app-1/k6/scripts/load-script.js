@@ -3,10 +3,9 @@ import { check, sleep } from 'k6';
 
 export let options = {
   stages: [
-    { duration: '30s', target: 1000 },
-    { duration: '30s', target: 100 },
-    { duration: '1m', target: 200 },
-    { duration: '2m', target: 0 },
+    { duration: '2m', target: 500 }, // плавный рост
+    { duration: '2m', target: 500 }, // удерживаем нагрузку
+    { duration: '1m', target: 0 },   // плавное снижение
   ],
 };
 
@@ -15,7 +14,7 @@ function randomInt(min, max){
 }
 
 export default function() {
-  if (Math.random() < 0.8) {
+  if (Math.random() < 0.1) {
     const payload = JSON.stringify({ user_id: randomInt(1,2), amount: Math.random()*100, description: 'k6 load' });
     const res = http.post('http://localhost:8081/api/orders', payload, { headers: { 'Content-Type': 'application/json' } });
     check(res, { 'created': (r) => r.status === 200 || r.status === 201 });
